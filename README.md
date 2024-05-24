@@ -1,0 +1,1 @@
+I use images like for names, logo etc because this website is based on hard copy (printed) wedding invitations, and the client doesn't have the soft files. Therefore, I don't know about the fonts, all the PNG pictures, etc., so I use screenshots. You can change them to use text.
