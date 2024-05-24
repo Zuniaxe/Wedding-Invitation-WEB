@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeri Foto</title>
+<style>
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #CBE9F3;
+    animation: fadeIn 2s ease-in-out;
+
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .gallery-item {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .gallery-item1 img{
+    padding-top: 60px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+
+  .judul p{
+    font-family: 'Great Vibes';
+    text-align: center;
+    font-size: 48px;
+    color: #2C4A65;
+  }
+</style>
+</head>
+<body>
+
+<div class="judul">
+    <p>Gallery</p>
+</div>
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="/Images/bawah.jpg" alt="Foto 1">
+  </div>
+  <div class="gallery-item">
+    <img src="/Images/HEADEER2.JPG" alt="Foto 2">
+  </div>
+  <div class="gallery-item">
+    <img src="/Images/fotopria.jpg" alt="Foto 3">
+  </div>
+  <div class="gallery-item">
+    <img src="/Images/fotowanita.jpg" alt="Foto 3">
+  </div>
+  <div class="gallery-item">
+    <img src="/Images/footter.JPG" alt="Foto 3">
+  </div>
+  <div class="gallery-item1">
+    <img src="/Images/logo.png" alt="Foto 3">
+  </div>
+</div>
+
+</body>
+</html>

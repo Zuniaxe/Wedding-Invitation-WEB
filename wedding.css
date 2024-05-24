@@ -1,0 +1,110 @@
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    animation: fadeIn 2s ease-in-out;
+}
+
+:root {
+    --background: #CBE9F3;
+    --primary: #6E8DA1;
+    --accent: #12314E;
+    --font-family: 'Great Vibes';
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--accent);
+    text-align: center;
+    font-size: 12px;
+}
+
+.container {
+    border: solid 1px var(--accent);
+    overflow-x: hidden;
+    height: 100vh;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.bunga {
+    background-image: url(/Images/logo.png);
+    background-position: center;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bunga img {
+    width: 35%;
+    height: auto;
+}
+
+.cover {
+    margin-top: -15px;
+    padding: 15px;
+}
+
+.pria img {
+    width: 65%;
+    height: auto;
+}
+
+.pria p {
+    padding: 0 20px;
+}
+
+.dan img {
+    width: 15%;
+    height: auto;
+}
+
+.wanita img {
+    width: 95%;
+    height: auto;
+}
+
+.wanita p {
+    padding: 0 25px;
+}
+
+.penutup p {
+    padding: 15px 25px;
+} 
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    margin-bottom: -15px;
+}
+
+.divider img { 
+    width: 50%;
+    height: auto;
+}
+
+.button {
+    background-color: var(--accent);
+    border-radius: 100px;
+    padding: 10px 15px;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: var(--primary); 
+}
