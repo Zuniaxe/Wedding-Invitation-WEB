@@ -12,23 +12,16 @@
     animation: fadeIn 2s ease-in-out;
 }
 
-:root {
-    --background: #CBE9F3;
-    --primary: #6E8DA1;
-    --accent: #12314E;
-    --font-family: 'Great Vibes';
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--background);
-    color: var(--accent);
+    background-color: #CBE9F3;
+    color: #12314E;
     text-align: center;
     font-size: 12px;
 }
 
 .container {
-    border: solid 1px var(--accent);
+    border: solid 1px #12314E;
     overflow-x: hidden;
     height: 100vh;
     opacity: 0;
@@ -95,7 +88,7 @@ body {
 }
 
 .button {
-    background-color: var(--accent);
+    background-color: #12314E;
     border-radius: 100px;
     padding: 10px 15px;
     font-size: 12px;
@@ -106,5 +99,5 @@ body {
 }
 
 .button:hover {
-    background-color: var(--primary); 
+    background-color: #6E8DA1; 
 }

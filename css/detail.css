@@ -1,10 +1,3 @@
-:root {
-    --background: #CBE9F3;
-    --primary: #6E8DA1;
-    --accent: #12314E;
-    --font-family: 'Great Vibes'
-}
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -17,7 +10,7 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--accent);
+    color: #12314E;
 }
 
 html {
@@ -26,7 +19,7 @@ html {
 
 
 body  {
-    background-color: var(--background);
+    background-color: #CBE9F3;
     margin: 0;
     padding: 0;
     animation: fadeIn 2s ease-in-out;
@@ -38,7 +31,7 @@ body  {
     margin-left: 10px;
     width: 300px;
     height: 180px;
-    border: 2px solid var(--accent);
+    border: 2px solid #12314E;
     z-index: 0;
     margin-bottom: -280px;
 }
@@ -77,7 +70,7 @@ body  {
 
 .acara h1{
     text-align: center;
-    font-family: var(--font-family);
+    font-family: 'Great Vibes';
     font-size: 46px;
     font-weight: 100;
     margin-bottom: -15px;
@@ -85,7 +78,7 @@ body  {
 }
 
 .time{
-    background-color: var(--accent);
+    background-color: #12314E;
     width: 40%;
     border-radius: 100px;
     margin: 0 auto 0;
@@ -115,8 +108,8 @@ body  {
 }
 
 .tanggal p {
-    border-left: 1px solid var(--accent);
-    border-right: 1px solid var(--accent);
+    border-left: 1px solid #12314E;
+    border-right: 1px solid #12314E;
     font-size: 42px;
     margin: 0;
 }
@@ -140,7 +133,7 @@ body  {
 .DeskripsiBawah {
     margin-top: -200px;
     width: 100%;
-    background-color: var(--primary);
+    background-color: #6E8DA1;
     height: 480px;
     display: flex;
     flex-direction: column;
@@ -166,7 +159,7 @@ i{
 }
 
 .qr {
-    background-color: var(--accent);
+    background-color: #12314E;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -183,7 +176,7 @@ i{
 
 .qr p {
     text-align: center;
-    color: var(--background);
+    color: #CBE9F3;
     font-size: 16px;
     font-weight: bold;
 }
@@ -211,7 +204,7 @@ i{
 .mengundang{
     margin-top: -45%;
     border-radius: 40px 40px 0 0;
-    background-color: var(--primary);
+    background-color: #6E8DA1;
     padding: 25px 25px;
     display: flex;
     flex-direction: column;
@@ -253,7 +246,7 @@ i{
 .mengundang2{
     margin-top: -45%;
     border-radius: 40px 40px 0 0;
-    background-color: var(--primary);
+    background-color: #6E8DA1;
     padding: 25px 25px;
     display: flex;
     flex-direction: column;
@@ -278,13 +271,13 @@ i{
 }
 
 .containerayat{
-    background-color: var(--background);
+    background-color: #CBE9F3;
     padding: 20px 20px;
 
 }
 
 .ayat{
-    background-color: var(--primary);
+    background-color: #6E8DA1;
     padding: 10px 10px;
 
 }
@@ -347,7 +340,7 @@ i{
 }
 
 .button1 a:hover{
-    background-color: var(--primary);
+    background-color: #6E8DA1;
     padding: 8px 60px;
     transition: all 0.3s ease;
 }
